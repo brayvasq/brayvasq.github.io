@@ -5,7 +5,6 @@ author: brayvasq
 description: ""
 categories: [tutorial, VueJS]
 tags: [Vue, básico, desarrollo web,desarrollo]
-hidden: true
 ---
 
 VueJS es un framework  de código abierto para la construcción de interfaces de usuario; Que Organiza y simplifica un poco el desarrollo web. Es simple y fácil de entender, proporcionando una gran alternativa a React o Angular.

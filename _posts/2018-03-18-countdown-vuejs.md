@@ -52,9 +52,7 @@ El comando anterior nos creará un proyecto basado en una plantilla webpack, pro
 
 Cuando nos mencione Vue build daremos enter y a las siguientes opciones le diremos no ya que no serán necesarias para el actual ejemplo.
 
-Al llegar a la instalación nos pedirá qué gestor de paquetes usar: npm, yarn.etc. elegiremos el que más nos guste (en mi caso npm). Finalmente, se nos creará el proyecto, quedando así la configuración:
-
-![VueJSCLI]({{ "/assets/media/imagenes/count-down/VueJSCLI.png" | absolute_url }})
+Al llegar a la instalación nos pedirá qué gestor de paquetes usar: npm, yarn.etc. elegiremos el que más nos guste (en mi caso npm).
 
 La estructura del proyecto quedará así:
 
@@ -97,9 +95,7 @@ Podemos ejecutar el proyecto mediante el siguiente comando:
 npm run dev
 ```
 
-Esto iniciará el servidor en el puerto 8080 y podemos verificar ingresando la url: http://localhost:8080 en nuestro navegador, verán lo siguiente:
-
-![VueJSInicio]({{ "/assets/media/imagenes/count-down/VueJSInicio.png" | absolute_url }})
+Esto iniciará el servidor en el puerto 8080 y podemos verificar ingresando la url: http://localhost:8080 en nuestro navegador.
 
 ## Componentes
 
@@ -158,7 +154,7 @@ Cómo se puede ver el contenido del template son etiquetas `html` normales, solo
 - Los siguientes elementos contienen etiquetas de párrafo `<p>` para mostrar la cuenta regresiva; Nótese que se está usando la interpolación de cadenas.
 - Finalmente se tiene un `div` que contiene una directiva `v-if` para mostrar si la cuenta regresiva ya terminó.
 
-**Nota :** Si no se tiene conocimiento acerca de la interpolación de cadenas y las directivas, se recomienda revisar el tutorial [Iniciando con VueJS](http://brayvasq.github.io/desarrollo/tutorial/vuejs/web/2018/03/18/1.iniciando-con-vue.html).
+**Nota :** Si no se tiene conocimiento acerca de la interpolación de cadenas y las directivas, se recomienda revisar el tutorial [Iniciando con VueJS](http://brayvasq.github.io/desarrollo/tutorial/vuejs/2018/03/17/iniciando-con-vue.html).
 
 Ahora se añadirá funcionalidad al componente `Countdown.vue`, vamos a añadir el siguiente código después del template en el archivo `Countdown.vue`.
 
@@ -237,7 +233,7 @@ export default {
 
 Ejecutamos el proyecto e ingresamos a http://localhost:8080.
 
-![VueJSFuncionando]({{ "/assets/media/imagenes/count-down/VueJSFuncionando.gif" | absolute_url }})
+## Estilos
 
 Finalmente vamos a añadir estilos para mejorar el aspecto de la aplicación. En el archivo `Countdown.vue` después de la sección de script vamos a añadir lo siguiente:
 
@@ -302,7 +298,7 @@ body{
 
 ## Resultado
 
-![VueJSEstilos]({{ "/assets/media/imagenes/count-down/VueJSEstilos.gif" | absolute_url }})
+![VueJSEstilos](https://github.com/brayvasq/count-down/raw/master/src/assets/VueJSEstilos.gif?raw=true)
 
 Ahora ya conocemos cómo crear un proyecto vue mediante vue-cli, logramos ver lo fácil qué es crear componentes y podemos empezar a crear aplicaciones un poco más robustas con este gran framework.
 

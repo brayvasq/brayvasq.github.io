@@ -37,29 +37,29 @@ En caso de qué no esté definida la variable de entorno GOPATH se debe realizar
 
 1. Crear directorio de go en home
 
-```bash
-mkdir -p $HOME/go
-```
+   ```bash
+   mkdir -p $HOME/go
+   ```
 
-El `-p` es para indicarle a `mkdir ` que debe crear el directorio padre en caso de ser necesario.
+   El parámetro `-p` es para indicarle a `mkdir ` que debe crear el directorio padre en caso de ser necesario.
 
 2. Crearemos la variable de entorno y la enviaremos al archivo de configuración de bash para el usuario actual.
 
-```bash
-echo 'export GOPATH=$HOME/go' >> $HOME/.bashrc
-```
+   ```bash
+   echo 'export GOPATH=$HOME/go' >> $HOME/.bashrc
+   ```
 
 3. Verificamos que la variable de entorno haya sido creada.
 
-```bash
-source $HOME/.bashrc
-```
+   ```bash
+   source $HOME/.bashrc
+   ```
 
 4. Verificamos de nuevo con `go env`
 
-```go
-go env GOPATH
-```
+   ```go
+   go env GOPATH
+   ```
 
 **GOROOT** : Aquí es donde se encuentra instalado golang, es decir, aquí se van a encontrar los componentes básicos de golang para su funcionamiento.
 
@@ -75,28 +75,28 @@ En caso de qué no esté definida la variable de entorno GOPATH se debe realizar
 
 1. Crearemos la variable de entorno y la enviaremos al archivo de configuración de bash para el usuario actual.
 
-```bash
-echo 'export GOROOT=ruta' >> $HOME/.bashrc
-```
+   ```bash
+   echo 'export GOROOT=ruta' >> $HOME/.bashrc
+   ```
 
 Donde ruta será el directorio de instalación de golang.
 
 2. Añadiremos a las variables de entorno los binarios de golang
 
-```bash
-echo export 'PATH=$PATH:$GOROOT/bin' >> $HOME/.bashrc
-```
+   ```bash
+   echo export 'PATH=$PATH:$GOROOT/bin' >> $HOME/.bashrc
+   ```
 
 3. Verificamos que la variable de entorno haya sido creada.
 
-```bash
-source $HOME/.bashrc
-```
+   ```bash
+   source $HOME/.bashrc
+   ```
 
 4. Verificamos de nuevo con `go env`
 
-```go
-go env GOROOT
-```
+   ```go
+   go env GOROOT
+   ```
 
 Ahora tendremos instalado el lenguaje de programación golang.

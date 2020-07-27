@@ -3,23 +3,16 @@ layout: page
 title: About
 permalink: /about/
 ---
+Hi, I'm Brayan Vasquez. 
 
-Mi nombre es brayan stiven vasquez villa, soy estudiante de ingeniería en sistemas y computación en la universidad de caldas,Manizales, Colombia y actualmente me encuentro en los últimos semestres.
+I'm from Colombia and I'm a Software Engineer at Kommit.co. I'm currently working with Ruby on Rails, but I try to learn new languages and new technologies.
 
-Me gusta bastante la programación y aprender nuevas tecnologías. Soy usuario de linux y actualmente uso fedora; Aunque he pasado por variedad de distribuciones, desde ubuntu hasta arch linux y derivadas, todo a causa del distrohoping ;D.
+In this blog I share my experience in software development, thing I learned and other things of my interest.
 
-La idea del presente blog es compartir variedad de cosas que he aprendido y que iré aprendiendo tanto en la universidad como en internet. También publicaré guías de programación y linux que pueden ser de ayuda tanto para mí como para otras personas. Creo que el blog es una buena forma de contribuir a la comunidad y también me servirá para afianzar conocimientos.
+## Where you can find me
+- [twitter/brayvasq](https://twitter.com/brayvasq)
+- [github/brayvasq](https://github.com/brayvasq)
+- [linkedin/brayvasq](https://www.linkedin.com/in/brayvasq/)
+- [dev.to/brayvasq](https://dev.to/brayvasq)
 
-Sin más, dejo mis redes sociales y métodos decontacto.
-
-Twitter: @brayvasq
-
-Disqus: @brayvasq
-
-Facebook: brayvasq
-
-Github: @brayvasq
-
-Bitbucket: @brayvasq
-
-Email: brayvasq@gmail.com
+Feel free to reach out.
